@@ -134,4 +134,15 @@ a:hover {
     font-size: 130%;
   }
 
+  .text {
+    margin-left: 10rem;
+    width: 100%;
+    max-width: 45%;
+  }
+
+  .img-flex {
+    width: 100%;
+    max-width: 37%;
+  }
+
 }
