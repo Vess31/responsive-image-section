@@ -80,6 +80,7 @@ a:hover {
   p {
     margin: 0 0 1.4rem;
   }
+
   section {
     background-color: #e2e2e2;
   }
@@ -119,9 +120,9 @@ a:hover {
   }
 
   .text {
-    margin: 1rem;
+    margin: 1.5rem;
     vertical-align: middle;
-    max-width: 46%;
+    max-width: 45%;
     margin-left: 2rem;
   }
 }
@@ -129,7 +130,7 @@ a:hover {
 @media only screen and (min-width: 90em) {
 
   html {
-      font-size: 130%;
-    }
+    font-size: 130%;
+  }
 
 }
