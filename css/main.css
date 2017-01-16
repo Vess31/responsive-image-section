@@ -11,26 +11,40 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
+body {
+  padding: 1rem;
+}
+
+div {
+  display: inline-block;
+}
+
+p {
+  margin-top: 0;
+}
+
+.img-flex {
   width: 100%;
+  display: block;
+  padding-top: 1rem;
 }
 
 a {
-  background-color: #333;
+  background-color: #555;
   display: inline-block;
   color: #fff;
   border-radius: 4px;
   padding: 0.5em 0.75em;
   text-decoration: none;
-  font-size: 1.125em;
 }
 
 a:hover {
-
+  background-color: #000;
 }
