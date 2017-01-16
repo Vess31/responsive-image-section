@@ -47,6 +47,7 @@ a {
   border-radius: 4px;
   padding: .5em .75em;
   text-decoration: none;
+  text-align: center;
 }
 
 a:hover {
@@ -101,6 +102,7 @@ a:hover {
   html {
     font-size: 120%;
     line-height: 1.5;
+    background-color: #e2e2e2;
   }
 
   h1,
@@ -110,14 +112,17 @@ a:hover {
 
   .img-flex {
     display: inline-block;
-    max-width: 38%;
+    vertical-align: middle;
+    max-width: 47%;
     width: 100%;
+    padding-top: 1rem;
   }
 
   .text {
-    text-align: left;
-    max-width: 40%;
-    margin-left: 10rem;
+    margin: 1rem;
+    vertical-align: middle;
+    max-width: 46%;
+    margin-left: 2rem;
   }
 }
 
