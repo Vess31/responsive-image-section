@@ -110,8 +110,21 @@ a:hover {
 
   .img-flex {
     display: inline-block;
-    max-width: 50%;
+    max-width: 38%;
     width: 100%;
   }
+
+  .text {
+    text-align: left;
+    max-width: 40%;
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+      font-size: 130%;
+    }
 
 }
