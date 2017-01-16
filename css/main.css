@@ -27,14 +27,13 @@ p {
   margin: 0 0 1.3rem;
 }
 
-section {
+.text {
   padding: 1rem;
 }
 
 div {
   display: inline-block;
 }
-
 
 .img-flex {
   width: 100%;
@@ -46,7 +45,7 @@ a {
   display: inline-block;
   color: #fff;
   border-radius: 4px;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   text-decoration: none;
 }
 
